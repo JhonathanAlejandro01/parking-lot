@@ -33,7 +33,6 @@ export const ParkingLot = () => {
   
   return (
     <Box sx={{ flexGrow: 1, p: 2 }}>
-      <InputField/>
       <Grid
         container
         columns={10}
@@ -70,6 +69,7 @@ export const ParkingLot = () => {
         ))}
       </Grid>
       <ParkingResults datasets={cars} />
+      <InputField/>
     </Box>
   )
 }
