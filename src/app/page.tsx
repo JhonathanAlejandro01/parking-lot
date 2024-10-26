@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
-import { Car } from '@/components/Car';
 import { ParkingLot } from '@/components/ParkingLot';
 
 export default function Home() {
