@@ -5,6 +5,7 @@ import { parkingLogic } from '@/utils/parkingLogic';
 import { CarType } from '@/lib/types';
 import { Car } from './Car';
 import { ParkingResults } from './ParkingResults';
+import InputField from './InputField';
 
 const sampleInput = `
 2
@@ -32,6 +33,7 @@ export const ParkingLot = () => {
   
   return (
     <Box sx={{ flexGrow: 1, p: 2 }}>
+      <InputField/>
       <Grid
         container
         columns={10}
