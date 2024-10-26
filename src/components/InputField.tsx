@@ -25,7 +25,7 @@ export default function InputField() {
   return (
     <TextField
           id="outlined-textarea"
-          label="Multiline Placeholder"
+          label="Input Cars"
           placeholder={sampleInput}
           multiline
         />
